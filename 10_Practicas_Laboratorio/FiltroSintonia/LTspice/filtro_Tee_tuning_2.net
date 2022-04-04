@@ -1,0 +1,71 @@
+* Z:\home\aalmela\scm\git\utn\eaiii\2020\10_Practicas_Laboratorio\FiltroSintonia\LTspice\filtro_Tee_tuning_2.asc
+L1 N005 N009 {Lr}
+L2 N009 N006 {Lr} Rpar={rpr}
+L3 N009 N012 {Lc}
+R1 N001 s 1k
+C1 0 N001 10n
+C2 0 N002 10n
+R2 N002 s 1k
+R3 N001 N004 10k
+R4 N002 N007 10k
+R5 N015 d 1k
+C3 0 N015 10n
+R6 N011 N015 10k
+R7 N014 d 1k
+C4 0 N014 10n
+R8 N013 N014 10k
+R9 N008 0 10k
+R10 N003 0 10k
+C5 N003 i 10n
+C6 o N008 10n
+R11 o 0 {rl}
+R12 i N010 {rs}
+V1 N010 0 AC 100u
+V2 s 0 {Vs}
+V3 d 0 {Vd}
+XU1 N003 N004 SMVDIODE Cjo={Cjo1} M={M1} Vj={Vj1} R={Rs1} Ls={Ls1} Cp={Cp1}
+XU2 N005 N004 SMVDIODE Cjo={Cjo1} M={M1} Vj={Vj1} R={Rs1} Ls={Ls1} Cp={Cp1}
+XU3 N006 N007 SMVDIODE Cjo={Cjo1} M={M1} Vj={Vj1} R={Rs1} Ls={Ls1} Cp={Cp1}
+XU4 N008 N007 SMVDIODE Cjo={Cjo1} M={M1} Vj={Vj1} R={Rs1} Ls={Ls1} Cp={Cp1}
+XU5 N005 N011 SMVDIODE Cjo={Cjo2} M={M2} Vj={Vj2} R={Rs2} Ls={Ls2} Cp={Cp2}
+XU6 0 N011 SMVDIODE Cjo={Cjo2} M={M2} Vj={Vj2} R={Rs2} Ls={Ls2} Cp={Cp2}
+XU7 N006 N013 SMVDIODE Cjo={Cjo2} M={M2} Vj={Vj2} R={Rs2} Ls={Ls2} Cp={Cp2}
+XU8 0 N013 SMVDIODE Cjo={Cjo2} M={M2} Vj={Vj2} R={Rs2} Ls={Ls2} Cp={Cp2}
+R13 N009 N005 {rpr}
+R14 N006 N009 {rpr}
+R15 N012 0 {rpc}
+XU9 N003 N004 SMVDIODE Cjo={Cjo1} M={M1} Vj={Vj1} R={Rs1} Ls={Ls1} Cp={Cp1}
+XU10 N005 N004 SMVDIODE Cjo={Cjo1} M={M1} Vj={Vj1} R={Rs1} Ls={Ls1} Cp={Cp1}
+XU11 N006 N007 SMVDIODE Cjo={Cjo1} M={M1} Vj={Vj1} R={Rs1} Ls={Ls1} Cp={Cp1}
+XU12 N008 N007 SMVDIODE Cjo={Cjo1} M={M1} Vj={Vj1} R={Rs1} Ls={Ls1} Cp={Cp1}
+XU13 N005 N011 SMVDIODE Cjo={Cjo2} M={M2} Vj={Vj2} R={Rs2} Ls={Ls2} Cp={Cp2}
+XU14 0 N011 SMVDIODE Cjo={Cjo2} M={M2} Vj={Vj2} R={Rs2} Ls={Ls2} Cp={Cp2}
+XU15 N006 N013 SMVDIODE Cjo={Cjo2} M={M2} Vj={Vj2} R={Rs2} Ls={Ls2} Cp={Cp2}
+XU16 0 N013 SMVDIODE Cjo={Cjo2} M={M2} Vj={Vj2} R={Rs2} Ls={Ls2} Cp={Cp2}
+.param rs =  50.0
+.param rl =  50.0
+.param Lc  =  112.54n
+.param rpc =  0.2
+.param Lr =  1387.99n
+.param rpr =  24666.7
+.ac dec 1000 10e6 40e6
+;tran 0.1
+.param Vs =  3.600
+.param Vd =  2.426
+* .param V1 =  2.588\n.param V2 =  3.851
+* .param V1 =  3.370\n.param V2 =  5.128
+.param Cjo1 =  5.2e-11
+.param Vj1  =  7.4e+01
+.param M1   =  4.9e+01
+.param Cp1  =  2.7e-12
+.param Rs1  =  1.1e+00
+.param Ls1  =  1.4e-09
+.param Cjo2 =  5.2e-11
+.param Vj2  =  7.4e+01
+.param M2   =  4.9e+01
+.param Cp2  =  2.7e-12
+.param Rs2  =  1.1e+00
+.param Ls2  =  1.4e-09
+.lib C:\Program Files\LTC\LTspiceXVII\lib\sym\MyComponents\smvdiode.cir
+.backanno
+.end
