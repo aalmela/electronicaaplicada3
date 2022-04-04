@@ -1,0 +1,15 @@
+* Z:\home\aalmela\scm\git\utn\eaiii\eaiii_2021\8_Osciladores\2_ejercicios\LTspice\Draft2.asc
+V1 N001 0 PWL(0 0 1e-9 0 1.1e-9 0.8) AC 0.8
+G1 N002 N003 N002 N003 table(-10,0,0,0,0.2,10e-3,0.6,1e-3,1,21e-3)
+L1 0 N003 {L} Rser=1e-20
+C1 N003 0 {C}
+R1 N003 0 {r}
+R2 N002 0 10
+R3 N002 N001 10
+C2 0 N002 1n
+.tran 0 1000e-9 50e-9 0.1e-9
+.param L = 9.538e-10
+.param C = 2.656e-11
+.param r = 1.000e+03
+.backanno
+.end

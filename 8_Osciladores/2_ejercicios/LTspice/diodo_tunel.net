@@ -1,0 +1,7 @@
+* Z:\home\aalmela\scm\git\utn\eaiii\eaiii_2021\8_Osciladores\2_ejercicios\LTspice\diodo_tunel.asc
+V1 N001 0 PWL(0 0 10e-9 1) AC 0.4
+G1 d 0 N001 0 table(-10,0,0,0,0.2,10e-3,0.6,1e-3,1,21e-3)
+R1 d 0 1e3
+.tran 10e-9
+.backanno
+.end

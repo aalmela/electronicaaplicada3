@@ -1,0 +1,17 @@
+* Z:\home\aalmela\scm\git\utn\eaiii\eaiii_2021\3_Amplificadores_sintonizados\1_Lessons\spice\Doble_acopla_C.asc
+L1 N001 0 15.9155e-6
+L2 0 N002 15.9155e-6
+R1 N001 0 1e3
+R2 N002 0 1e3
+C1 N001 0 1.59155e-9
+C2 N002 0 1.59155e-9
+I1 N001 0 AC 1e-6
+C3 N002 N001 {k*{C}}
+* Qc = 10
+* fo = 1e6
+.ac dec 1e5 0.3e6 100e6
+.step param k LIST 0.2 0.1 0.01
+* k = C3/(C1*C2)^0.5
+.param C 1.59155e-9
+.backanno
+.end

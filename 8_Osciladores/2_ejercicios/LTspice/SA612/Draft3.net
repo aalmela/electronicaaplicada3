@@ -1,0 +1,9 @@
+* Z:\home\aalmela\scm\git\utn\eaiii\2020\8_Osciladores\LTspice\SA612\Draft3.asc
+XU1 N002 N003 0 SFECF10M7GA00-R0
+V1 N001 0 AC 10u
+R1 N002 N001 330
+R2 0 N003 330
+.ac dec 1000 1e6 30e6
+.lib Z:\home\aalmela\scm\git\utn\eaiii\2020\8_Osciladores\LTspice\SA612\cristal_10M7.net
+.backanno
+.end

@@ -1,0 +1,17 @@
+* Z:\home\aalmela\scm\git\utn\eaiii\eaiii_2021\2_Circuitos_de_adaptacion\2_Ejercicios\Primeros\LTspice\Draft4.asc
+J1 o 0 i 2N3819
+V1 N001 0 AC 0
+V2 N005 0 15
+V3 0 N004 0
+C1 N001 i 1nF
+C2 N003 N002 1e-9
+L1 i N004 100e-6
+L2 N002 N005 100e-6
+R2 N002 o 0.1
+V4 N003 0 AC 1e-3
+.model NJF NJF
+.model PJF PJF
+.lib C:\users\aalmela\Mis Documentos\LTspiceXVII\lib\cmp\standard.jft
+.ac dec 1e6 30e6 300e6
+.backanno
+.end

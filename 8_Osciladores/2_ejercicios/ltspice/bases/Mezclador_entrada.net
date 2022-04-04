@@ -1,0 +1,91 @@
+* Z:\home\aalmela\scm\git\utn\eaiii\2020\8_Osciladores\ejercicios\ltspice\bases\Mezclador_entrada.asc
+Q1 N003 1 N010 0 MRF9411
+R1 8 4 1500
+R2 8 5 1500
+R3 1 E3 2500
+R4 E3 2 2500
+R5 N010 0 450
+R6 7 0 25k
+R7 N006 N011 210
+V1 N011 0 1.32
+R8 8 N006 13k
+R9 8 6 18k
+R10 N002 0 25k
+R11 8 N001 18k
+E1 E1 0 6 0 .4
+E2 E2 0 N001 0 .4
+Q2 4 E2 N003 0 MRF9411
+Q3 4 E1 N004 0 MRF9411
+Q4 8 6 7 0 MRF9411
+Q5 5 E1 N003 0 MRF9411
+Q6 5 E2 N004 0 MRF9411
+Q7 N004 2 N010 0 MRF9411
+Q8 8 N001 N002 0 MRF9411
+E3 E3 0 N006 0 1
+C1 1 0 2p
+C2 2 0 2p
+VS 8 0 5
+V2 N012 0 SINE(0 1e-6 100e6) AC 10u
+R12 N007 N012 50
+C3 N008 N007 20p
+L1 N008 0 8.85e-9
+L2 N005 N008 42.36e-9
+C4 N005 0 5p
+C5 N005 N009 10n
+C6 1 N005 10n
+C7 2 0 10n
+C8 N009 0 20p
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\aalmela\Mis Documentos\LTspiceXVII\lib\cmp\standard.bjt
+* Bias
+* Osc buffer/\nlevel shifter
+*Low Noise, High-Frequency Transistor
+*MOT Si 250mW  10V  50mA 8GHz
+.MODEL MRF9411 NPN
++ IS = 4.558E-16
++ BF = 136
++ NF = 0.9979
++ VAF = 21
++ IKF = 0.7
++ ISE = 3.087E-14
++ NE = 2
++ BR = 42
++ NR = 0.993
++ VAR = 2.9
++ IKR = 0.016
++ ISC = 3.411E-17
++ NC = 1.087
++ RB = 7
++ IRB = 8E-05
++ RBM = 8
++ RE = 0.45
++ RC = 8
++ XTB = 0
++ EG = 1.11
++ XTI = 3
++ CJE = 8.6E-13
++ VJE = 0.94
++ MJE = 0.42
++ CJC = 4.3E-13
++ VJC = 0.35
++ MJC = 0.21
++ XCJC = 0.44
++ TF = 1.3E-11
++ XTF = 400
++ VTF = 6
++ ITF = 1.5
++ PTF = 47
++ TR = 1E-09
++ FC = 0.98
+* >>>MEASURED PART DC PERFORMANCE<<<\nPIN     V(4v)     V(5V)     V(6v)     V(8v)\n1         1.35v    1.38v     1.39v     1.42v\n2         1.35v    1.38v     1.19v     1.42v\n3         GND     GND      GND      GND\n4         2.94v    3.90v     4.90v     6.83v \n5         2.96v    3.88v     4.88v     6.81v\n6         4.03v    4.95v     5.95v     7.97v\n7         3.25v    4.02v     5.02v     7.19v\n8          VDD     VDD      VDD       VDD\n \nIdd      2.0ma    2.2ma    2.3 ma    2.8ma
+* By:\nJoe Rocci\nW3JDR\njoe@roccis.com\nUp to date model files and application\ncircuit files can be found at:\nhttp://w3jdr.ham-radio-op.net
+* >>>NE602/SA612 OSCILLATOR/MIXER IC MODEL<<<
+* Input matching network
+* RF Signal
+* Ltotal = 90nHy
+K1 L1 L2 1
+.ac dec 1000 30e6 300e6
+* Yin = 559.8e-6 + j 2.22e-3
+.backanno
+.end

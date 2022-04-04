@@ -1,0 +1,33 @@
+* Z:\home\aalmela\scm\git\utn\eaiii\eaiii_2021\6_Amplificadores_potencia_RF\1_Didacticas\spice\Draft17.asc
+V1 N001 0 125
+XM1 N001 N003 0 ARF463AB
+V2 N004 0 4.8
+R1 N003 N004 50
+R2 N003 0 50
+V3 N002 0 SINE(0 2 1e6)
+C1 N003 N002 100nF
+**********
+*SRC=ARF463AB;ARF463AB;MOSFETs N;Enh;500V 9.0A 1.1ohms PPG Microsemi RF MOSFET
+*SYM=POWMOSN
+*09-14-09 Rev A GJK PPG Microsemi
+.SUBCKT ARF463AB   10 20 30
+*     TERMINALS:  D  G  S
+M1   1  2  3  3  DMOS L=1U W=1U
+LD  10  11  2n
+RD  11          1   1.1
+LG  20  19  2.8n
+RG  19  2   .5
+D1   5  1   DGD
+D2   5  2   DGD
+CGS  2  3   1200p
+DSD  3  1   DSUB
+RS  29  3   2.25m
+LS  30  29  2n
+.MODEL DMOS NMOS(LEVEL=3 VMAX=1.04Meg THETA=100.0m ETA=2.00m VTO=3.00 KP=2.60)
+.MODEL DSUB D (IS=1.27u N=1.50 RS=5.00m BV=500 CJO=799p VJ=0.800 M=0.420 TT=311n)
+.MODEL DGD  D (IS=100n N=1.5 RS=10m BV=500 CJO=81.7p M=.5 VJ=.700 TT=1n)
+.ENDS
+*****
+.tran 100e-6
+.backanno
+.end

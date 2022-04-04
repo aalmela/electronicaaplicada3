@@ -1,0 +1,8 @@
+* Z:\home\aalmela\scm\git\utn\eaiii\2020\7_Mezcladores\ltspice\Draft5.asc
+B1 N001 0 V = V(i)Laplace = s/ (s**2+s+1)
+R1 i 0 330
+R2 0 N001 330
+V1 i 0 1
+.ac dec 100 1e6 30e6
+.backanno
+.end

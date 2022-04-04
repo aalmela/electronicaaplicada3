@@ -1,0 +1,6 @@
+matplotlib 
+scipy 
+scikit-rf
+nbsphinx
+sphinx_copybutton
+sphinx_gallery

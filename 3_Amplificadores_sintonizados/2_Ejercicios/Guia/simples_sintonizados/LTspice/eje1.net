@@ -1,0 +1,21 @@
+* Z:\home\aalmela\scm\git\utn\eaiii\eaiii_2021\3_Amplificadores_sintonizados\2_Ejercicios\Guia\simples_sintonizados\eje1.asc
+V1 N001 0 AC {vg}
+r11 0 B {r11}
+rg N001 B {rg}
+R3 0 N002 {r22}
+L1 N002 0 {L}
+C1 N002 0 {C}
+RL N002 0 {RL}
+B§y1 N002 0 I=V(B)*{g21}+ddt(V(B))*{b21}
+.ac dec 1000 50e6 150e6
+.param vg  = 0.283
+.param rg  = 1000.00
+.param r11 = 800.00
+.param g21 = 0.10
+.param b21 = 0.00
+.param r22 = 10000.00
+.param C = 1.89e-11
+.param L = 1.34e-07
+.param RL = 10000.00
+.backanno
+.end

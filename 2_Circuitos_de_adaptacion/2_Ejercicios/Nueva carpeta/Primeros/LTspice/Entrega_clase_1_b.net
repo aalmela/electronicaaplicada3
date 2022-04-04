@@ -1,0 +1,18 @@
+* Z:\home\aalmela\scm\git\utn\eaiii\eaiii_2021\2_Circuitos_de_adaptacion\2_Ejercicios\Primeros\LTspice\Entrega_clase_1_b.asc
+V1 N001 0 SINE(0 {vg} {fo} 0 0 0)
+rg1 N001 c {rg}
+Rant1 0 N003 {ra}
+C1 N002 0 {C}
+L1 N002 a {L}
+T1 c 0 N002 0 Td=50n Z0=50
+Cant a N003 {Ca}
+.tran 0 310e-6 300e-6 1n
+.param ra =  2.00
+.param rg =  50.00
+.param Ca  =  3.0000e-11
+.param L  =  9.4336e-05
+.param C  =  5.1980e-09
+.param vg =  200.00
+.param fo=  3.00e+06
+.backanno
+.end
