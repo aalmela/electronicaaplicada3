@@ -1,0 +1,12 @@
+Added Component: Designator=B1(Choke)
+Added Component: Designator=B2(Choke)
+Added Component: Designator=VCC(con1)
+Added Pin To Net: NetName=NetB1_1 Pin=B1-1
+Added Pin To Net: NetName=12V Pin=B1-2
+Added Pin To Net: NetName=12V Pin=B2-1
+Added Pin To Net: NetName=NetB2_2 Pin=B2-2
+Added Pin To Net: NetName=12V Pin=VCC-1
+Added Pin To Net: NetName=GND Pin=VCC-2
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component B1 choke
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component B2 choke
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component VCC CONN_2

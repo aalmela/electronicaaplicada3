@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=NetC3_1 Pin=D?-1
+Removed Pin From Net: NetName=GND Pin=D?-3
+Removed Member From Class: ClassName=Sheet1 Member=D?
+Add Component: Footprint Not Found 6-0805_N
+Add Pin To Net: Unknown Pin: Pin D1-1
+Add Pin To Net: Unknown Pin: Pin D1-2
+Add Class Member: Failed to add class member : Component D1 D Varactor

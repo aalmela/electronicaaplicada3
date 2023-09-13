@@ -1,0 +1,7 @@
+Change Component Footprint: Designator=RFOut Old Footprint=SMB_V-RJ45 New Footprint=SMA-142-0701-851
+Change Component Footprint: Designator=Vcc Old Footprint=SMB_V-RJ45 New Footprint=SMA-142-0701-851
+Change Component Footprint: Designator=Vtune Old Footprint=SMB_V-RJ45 New Footprint=SMA-142-0701-851
+Change Class Name : Old Net Name=Sheet1 New Net Name=VCO_BFR92_sh
+Added Member To Class: ClassName=VCO_BFR92_sh Member=Component R1 Res1
+Change Room Name: Old Name=Sheet1 New Name=VCO_BFR92_sh
+Change Room Scope: Old Scope=InComponentClass('Sheet1') New Scope=InComponentClass('VCO_BFR92_sh')

@@ -1,0 +1,54 @@
+Removed Pin From Net: NetName=12V Pin=C1-1
+Removed Pin From Net: NetName=12V Pin=C2-1
+Removed Pin From Net: NetName=GND Pin=C4-1
+Removed Pin From Net: NetName=NetC6_2 Pin=C10-1
+Removed Pin From Net: NetName=12V Pin=L1-1
+Removed Pin From Net: NetName=NetC7_1 Pin=L1-2
+Removed Pin From Net: NetName=NetC6_2 Pin=Q1-1
+Removed Pin From Net: NetName=NetC7_1 Pin=Q1-3
+Removed Pin From Net: NetName=12V Pin=R1-2
+Removed Pin From Net: NetName=NetC6_2 Pin=R2-2
+Removed Member From Class: ClassName=PD85004_PP_PA Member=RV1
+Change Component Comment : Designator=C4 Old Comment=100n New Comment=1u
+Change Component Designator: OldDesignator=R1 NewDesignator=R3
+Change Component Designator: OldDesignator=R2 NewDesignator=R1
+Change Component Designator: OldDesignator=RV1 NewDesignator=R2
+Added Component: Designator=B1(Choke)
+Added Component: Designator=B2(Choke)
+Added Component: Designator=R4(r)
+Added Component: Designator=R5(r)
+Added Pin To Net: NetName=12V Pin=B1-2
+Added Pin To Net: NetName=12V Pin=B2-1
+Added Pin To Net: NetName=VG1 Pin=C1-1
+Added Pin To Net: NetName=12V Pin=C4-1
+Added Pin To Net: NetName=GND Pin=C4-2
+Added Pin To Net: NetName=NetC6_2 Pin=R4-1
+Added Pin To Net: NetName=NetC7_1 Pin=R5-2
+Added Pin To Net: NetName=NetB1_1 Pin=B1-1
+Added Pin To Net: NetName=NetB1_1 Pin=R3-2
+Added Net: Name=NetB1_1
+Added Pin To Net: NetName=NetB2_2 Pin=B2-2
+Added Pin To Net: NetName=NetB2_2 Pin=C2-1
+Added Pin To Net: NetName=NetB2_2 Pin=L1-1
+Added Net: Name=NetB2_2
+Added Pin To Net: NetName=NetC10_1 Pin=C10-1
+Added Pin To Net: NetName=NetC10_1 Pin=Q1-1
+Added Pin To Net: NetName=NetC10_1 Pin=R1-2
+Added Pin To Net: NetName=NetC10_1 Pin=R4-2
+Added Net: Name=NetC10_1
+Added Pin To Net: NetName=NetL1_2 Pin=L1-2
+Added Pin To Net: NetName=NetL1_2 Pin=Q1-3
+Added Pin To Net: NetName=NetL1_2 Pin=R5-1
+Added Net: Name=NetL1_2
+Added Pin To Net: NetName=NetR2_CW Pin=R2-CW
+Added Pin To Net: NetName=NetR2_CW Pin=R3-1
+Added Net: Name=NetR2_CW
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component B1 choke
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component B2 choke
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component C6 100n
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component C7 100n
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component C8 100n
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component C9 100n
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component R3 1K
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component R4 0
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component R5 0

@@ -1,0 +1,9 @@
+Added Net: Name=12V
+Added Net: Name=GND
+Added Net: Name=in
+Added Net: Name=NetC1_2
+Added Net: Name=NetC4_2
+Added Net: Name=out
+Added Net: Name=VG1
+Added Class: Name=PD85004_PP_PA
+Added Room: Name=PD85004_PP_PA

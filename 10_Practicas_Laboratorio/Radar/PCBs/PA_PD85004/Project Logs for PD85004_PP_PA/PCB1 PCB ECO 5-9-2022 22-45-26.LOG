@@ -1,0 +1,83 @@
+Added Component: Designator=C1(6-0805_L)
+Added Component: Designator=C2(6-0805_L)
+Added Component: Designator=C3(6-0805_L)
+Added Component: Designator=C4(6-0805_L)
+Added Component: Designator=C5(6-0805_L)
+Added Component: Designator=C6(6-0805_L)
+Added Component: Designator=C7(6-0805_L)
+Added Component: Designator=C8(6-0805_L)
+Added Component: Designator=C9(CP)
+Added Component: Designator=C10(6-0805_L)
+Added Component: Designator=C11(6-0805_L)
+Added Component: Designator=C12(6-0805_L)
+Added Component: Designator=C13(6-0805_L)
+Added Component: Designator=J1(sma)
+Added Component: Designator=J2(sma)
+Added Component: Designator=L1(L)
+Added Component: Designator=Q1(pd85004)
+Added Component: Designator=R1(r)
+Added Component: Designator=R2(r)
+Added Component: Designator=VCC(con1)
+Added Pin To Net: NetName=in Pin=C1-1
+Added Pin To Net: NetName=NetC1_2 Pin=C1-2
+Added Pin To Net: NetName=12V Pin=C2-1
+Added Pin To Net: NetName=GND Pin=C2-2
+Added Pin To Net: NetName=NetC1_2 Pin=C3-1
+Added Pin To Net: NetName=GND Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=NetC4_2 Pin=C4-2
+Added Pin To Net: NetName=NetC1_2 Pin=C5-1
+Added Pin To Net: NetName=GND Pin=C5-2
+Added Pin To Net: NetName=12V Pin=C6-1
+Added Pin To Net: NetName=GND Pin=C6-2
+Added Pin To Net: NetName=12V Pin=C7-1
+Added Pin To Net: NetName=GND Pin=C7-2
+Added Pin To Net: NetName=12V Pin=C8-1
+Added Pin To Net: NetName=GND Pin=C8-2
+Added Pin To Net: NetName=12V Pin=C9-1
+Added Pin To Net: NetName=GND Pin=C9-2
+Added Pin To Net: NetName=NetC1_2 Pin=C10-1
+Added Pin To Net: NetName=GND Pin=C10-2
+Added Pin To Net: NetName=out Pin=C11-1
+Added Pin To Net: NetName=GND Pin=C11-2
+Added Pin To Net: NetName=out Pin=C12-1
+Added Pin To Net: NetName=GND Pin=C12-2
+Added Pin To Net: NetName=out Pin=C13-1
+Added Pin To Net: NetName=GND Pin=C13-2
+Added Pin To Net: NetName=in Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-2
+Added Pin To Net: NetName=out Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=12V Pin=L1-1
+Added Pin To Net: NetName=out Pin=L1-2
+Added Pin To Net: NetName=NetC1_2 Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q1-2
+Added Pin To Net: NetName=out Pin=Q1-3
+Added Pin To Net: NetName=NetC4_2 Pin=R1-1
+Added Pin To Net: NetName=12V Pin=R1-2
+Added Pin To Net: NetName=VG1 Pin=R2-1
+Added Pin To Net: NetName=NetC1_2 Pin=R2-2
+Added Pin To Net: NetName=12V Pin=VCC-1
+Added Pin To Net: NetName=GND Pin=VCC-2
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component C1 100n
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component C2 1u
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component C3 100n
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component C4 100n
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component C5 100n
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component C6 1u
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component C7 1u
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component C8 1u
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component C9 47u
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component C10 100n
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component C11 100n
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component C12 100n
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component C13 100n
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component J1 SMA
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component J2 SMA
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component L1 L
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component Q1 MOSFET_N
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component R1 1K
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component R2 1K
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component VCC CONN_2

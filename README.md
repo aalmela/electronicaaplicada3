@@ -1,14 +1,12 @@
-# Electrónica Aplicada III 2021
+# Electrónica Aplicada III 
 
 Notebook de Jupyter para los cálculos y simulaciones.
 
 Escritos en lenguaje Python3. 
 
-[Documentacion](https://2020.readthedocs.io/es/latest/)
 
-[Webpage](https://gitlab.frba.utn.edu.ar/grado/eaiii_2021)
+[Webpage](https://gitlab.frba.utn.edu.ar/grado/electronicaaplicada3)
 
-[Ver notebooks online (usando mybinder)](https://mybinder.org/v2/git/https%3A%2F%2Fgitlab.frba.utn.edu.ar%2Fgrado%2Feaiii_2021.git/HEAD)
 
 
 
@@ -129,6 +127,144 @@ Ancho de banda de ruido equivalente.
 Elección de la resistencia óptima del generador desde el punto de vista de ruido. 
 
 Verificaciones empleando simulaciones.
+
+
+## Unidad temática V: Detección en A.M. 
+
+### [Didactica 12:](./5_Detector_AM/1_Didacticas/Didactica_12.ipynb)
+
+Detector de envolvente, circuito a diodo, rendimiento, resistencia equivalente de entrada,  distorsiones. 
+
+Control automático de ganancia mediante sistema directo e inverso. 
+
+Verificaciones empleando simulaciones.
+
+## Unidad temática VI: Amplificadores de potencia sintonizados
+
+### [Didactica 13:](./6_Amplificadores_potencia_RF/1_Didacticas/Didactica_13.ipynb)
+
+Consideraciones generales de transmisores: modelos de dispositivos activos, filtros. 
+
+Comparación entre las clases de amplificadores A, AB, B, C. 
+
+El amplificador Clase C
+
+
+### [Didactica 14:](./6_Amplificadores_potencia_RF/1_Didacticas/Didactica_14.ipynb)
+
+El amplificador Clase C práctico.
+
+Verificaciones empleando simulaciones.
+
+
+### [Didactica 15:](./6_Amplificadores_potencia_RF/1_Didacticas/Didactica_15.ipynb)
+
+
+Distorsiones armónicas en amplificadores Clase C.
+
+Verificaciones empleando simulaciones.
+
+
+### [Didactica 16:](./6_Amplificadores_potencia_RF/1_Didacticas/Didactica_16.ipynb)
+
+
+Amplificador de RF Modulado. 
+
+Verificaciones empleando simulaciones.
+
+
+## Unidad temática VII: Osciladores sinusoidales
+
+
+
+### [Didactica 17:](./8_Osciladores/1_Didacticas/Didactica_17
+.ipynb)
+
+
+Generalidades de los Osciladores y su clasificación. 
+
+Osciladores de resistencia negativa. 
+
+Verificaciones a través de simulaciones.
+
+### [Didactica 18:](./8_Osciladores/1_Didacticas/Didactica_18.ipynb)
+
+
+Osciladores Colpitts.
+
+Osciladores Clapp.
+
+Verificaciones a través de simulaciones.
+
+## Unidad temática VIII: Mezcladores
+
+### [Didactica 19:](./7_Mezcladores/1_Didacticas/Didactica_19.ipynb)
+
+
+Teoría del mezclador y su análisis espectral. 
+
+Terminología utilizada en mezcladores. 
+
+Ganancia de conversión, nivel de compresión, rango dinámico. 
+
+Mezcladores a diodo y mezcladores balanceados.
+
+Verificaciones a través de simulaciones.
+
+
+### [Didactica 20:](./7_Mezcladores/1_Didacticas/Didactica_20.ipynb)
+
+
+Mezcladores y Conversores con dispositivos activos: FET, Bipolar, MOSFET de doble compuerta. 
+
+Mezcladores empleando celda de Gilbert.
+
+Verificaciones a través de simulaciones
+
+
+## Unidad temática IX: Moduladores y demoduladores angulares.
+
+
+### [Didactica 21:](./9_Moduladores_y_demoduladores_frecuencia_angular/1_Didacticas/Didactica_21.ipynb)
+
+Modulación angular. 
+
+Generación de F.M.: directa e indirecta.
+
+Multiplicadores y heterodinaje. 
+
+Transistor de reactancia.
+
+Verificaciones a través de simulaciones
+
+### [Didactica 22:](./9_Moduladores_y_demoduladores_frecuencia_angular/1_Didacticas/Didactica_22.ipynb)
+
+Modulador Beleskas, Armstrong, diodo varicap. 
+
+Verificaciones a través de simulaciones
+
+
+### [Didactica 23:](./9_Moduladores_y_demoduladores_frecuencia_angular/1_Didacticas/Didactica_23.ipynb)
+
+
+Características del detector de FM.
+
+Discriminador por desplazamiento de fase, discriminador Foster–Seeley, detector de razón, detector de cuadratura. 
+
+Verificaciones a través de simulaciones
+
+### [Didactica 24:](./9_Moduladores_y_demoduladores_frecuencia_angular/1_Didacticas/Didactica_24.ipynb)
+
+
+Esquema simplificado de la operación del lazo. 
+
+Diagrama en bloques de la operación de un PLL. 
+
+Análisis y terminología utilizada en PLL. 
+
+El oscilador de lazo (VCO). 
+
+
 
 
 # Contacto:

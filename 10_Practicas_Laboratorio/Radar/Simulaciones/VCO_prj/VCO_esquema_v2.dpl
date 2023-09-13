@@ -1,0 +1,25 @@
+<Qucs Schematic 0.0.20>
+<Properties>
+  <View=0,0,800,800,1,0,0>
+  <Grid=10,10,0>
+  <DataSet=VCO_esquema_v2.dat>
+  <DataDisplay=VCO_esquema_v2.sch>
+  <OpenDisplay=1>
+  <Script=VCO_esquema_v2.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Título>
+  <FrameText1=Dibujado por:>
+  <FrameText2=Fecha:>
+  <FrameText3=Revisión:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+</Diagrams>
+<Paintings>
+</Paintings>

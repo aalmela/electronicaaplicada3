@@ -1,0 +1,12 @@
+Added Component: Designator=RV1(POT4MM-2)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer Link"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://bourns.com/2/search.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Oct-2003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Square Trimming Potentiometer"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "POT4MM-2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "17-Dec-2003"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=RV1-CCW
+Added Pin To Net: NetName=NetC4_2 Pin=RV1-CW
+Added Pin To Net: NetName=VG1 Pin=RV1-W
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component RV1 RPot SM

@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=12V Pin=C8-1
+Removed Pin From Net: NetName=GND Pin=C8-2
+Removed Pin From Net: NetName=GND Pin=C13-2
+Removed Pin From Net: NetName=out Pin=J2-1
+Removed Member From Class: ClassName=PD85004_PP_PA Member=C13
+Change Component Designator: OldDesignator=C1 NewDesignator=C6
+Change Component Designator: OldDesignator=C3 NewDesignator=C8
+Change Component Designator: OldDesignator=C5 NewDesignator=C9
+Change Component Designator: OldDesignator=C6 NewDesignator=C1
+Change Component Designator: OldDesignator=C7 NewDesignator=C3
+Change Component Designator: OldDesignator=C9 NewDesignator=C5
+Change Component Designator: OldDesignator=C13 NewDesignator=C7
+Change Net Name : Old Net Name=NetC1_2 New Net Name=NetC6_2
+Change Net Name : Old Net Name=out New Net Name=NetC7_1
+Added Pin To Net: NetName=out Pin=C7-2
+Added Pin To Net: NetName=out Pin=J2-1
+Added Net: Name=out

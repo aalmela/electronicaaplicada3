@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=12V Pin=C5-1
+Removed Pin From Net: NetName=GND Pin=C5-2
+Removed Member From Class: ClassName=PD85004_PP_PA Member=C5
+Added Component: Designator=*(CP)
+Added Pin To Net: NetName=12V Pin=*-1
+Added Pin To Net: NetName=GND Pin=*-2
+Added Member To Class: ClassName=PD85004_PP_PA Member=Component * C5
