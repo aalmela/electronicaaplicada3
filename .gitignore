@@ -1,5 +1,5 @@
 *.log
 *.raw
 *.fft
-**/.ipnb_checkpoint/**
+**/.ipynb_checkpoints/**
 *-checkpoint.ipynb
