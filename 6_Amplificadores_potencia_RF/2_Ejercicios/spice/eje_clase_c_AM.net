@@ -1,0 +1,20 @@
+* Z:\home\aalmela\scm\git\utn\github\electronicaaplicada3\6_Amplificadores_potencia_RF\2_Ejercicios\spice\eje_clase_c_AM.asc
+V1 N004 0 SINE(-10 40 100e6 0 0 -90)
+L1 N001 N003 {L}
+C1 N001 N003 {C}
+C2 o N003 100n
+V2 N002 0 100V
+R1 o 0 {Rd}
+G2 N003 0 N004 0 table(-10,0,2,0,10,10,20,10)
+C3 N001 0 1µ
+R2 N002 N001 0.1
+.tran 0 900e-9 200e-9 1e-9
+.param Rd = 25.61
+.param L = 4.0752e-09
+.param C = 6.2156e-10
+.options numdgt = 7
+.options plotwinsize = 0
+.four 100e6 1 I(G2)
+.four 100e6 1 V(o)
+.backanno
+.end

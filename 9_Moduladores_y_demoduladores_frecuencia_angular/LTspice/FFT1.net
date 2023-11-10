@@ -1,0 +1,11 @@
+* Z:\home\aalmela\scm\git\utn\github\electronicaaplicada3\9_Moduladores_y_demoduladores_frecuencia_angular\LTspice\FFT1.asc
+V1 sig 0 SINE(0 1 1k)
+.tran 0 100e-3 0 100e-9
+.options numdgt =  7
+.options plotwinsize = 0
+* precision del dato
+* sin compresion
+.four 1000 10 100 V(sig)
+* .four <frequency> [Nharmonics] [Nperiods] <data trace1> [<data trace2> ...]
+.backanno
+.end
