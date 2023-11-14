@@ -12,9 +12,9 @@ R2 N002 N001 0.1
 .param Rd = 25.61
 .param L = 4.0752e-09
 .param C = 6.2156e-10
-.options numdgt = 7
-.options plotwinsize = 0
-.four 100e6 1 I(G2)
+* .options numdgt = 7
+* .options plotwinsize = 0
+.four 100e6 10 I(G2)
 .four 100e6 1 V(o)
 .backanno
 .end
