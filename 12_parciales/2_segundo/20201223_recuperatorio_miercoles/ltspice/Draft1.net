@@ -1,0 +1,5 @@
+* Z:\home\aalmela\scm\git\utn\eaiii\2020\11_Examenes\2_Segundo_Parcial\20201223_recuperatorio_miercoles\ltspice\Draft1.asc
+V1 N001 0 SINE(0 1 100)
+.tran 230e-3
+.backanno
+.end

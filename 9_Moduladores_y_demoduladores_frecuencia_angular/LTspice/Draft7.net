@@ -1,5 +1,0 @@
-* Z:\home\aalmela\scm\git\utn\github\electronicaaplicada3\9_Moduladores_y_demoduladores_frecuencia_angular\LTspice\Draft7.asc
-V1 sig 0 SINE(0 1 1k)
-.tran 0 100e-3 0 100e-9
-.backanno
-.end

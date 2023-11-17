@@ -1,0 +1,43 @@
+* Z:\home\aalmela\scm\git\utn\eaiii\2020\11_Examenes\2_Segundo_Parcial\20201203_jueves\spice\fet_reactancia.asc
+L1 VDD N002 100n
+Cr1 N004 N007 1pF
+Rr1 N007 0 22
+Re N008 0 1k
+C2 N008 0 100p
+C1 N002 N008 100p
+J1 N004 N007 N009 2N3819
+V1 N011 0 SINE(0 {Vm} 1Khz)
+V2 VDD 0 9
+Rs Vm N009 100
+Ca3 N009 0 10n
+Lch1 N001 N004 10µ
+Q1 N002 N006 N008 0 2N3904
+rg N011 N010 50
+Rdd VDD N001 100
+Ca4 N001 0 100n
+Ca2 N004 N008 1n
+Rb1 VDD N006 5k
+Rb2 N006 0 5k
+Ca1 N006 0 10n
+Ls Vm 0 100n
+Lp 0 N010 100n
+C3 N003 N002 100n
+Q2 VDD N003 N005 0 2N3904
+R1 N005 0 10k
+R2 VDD N003 100k
+C4 Salida N005 10n
+R3 Salida 0 10k
+R4 N003 0 100k
+.model NPN NPN
+.model PNP PNP
+.lib C:\users\aalmela\Mis Documentos\LTspiceXVII\lib\cmp\standard.bjt
+.model NJF NJF
+.model PJF PJF
+.lib C:\users\aalmela\Mis Documentos\LTspiceXVII\lib\cmp\standard.jft
+.tran 0 12m 2m 100n uic
+* Idss = 12mA
+* vc = -3V
+K1 Lp Ls 1
+.param Vm = 1
+.backanno
+.end
